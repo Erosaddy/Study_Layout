@@ -23,8 +23,9 @@
     width: 1280px;
     height: 460px;
     background-color: orangered;
+    padding: left 200px;
 }
 
 .mx-auto { /*컨텐츠 가로 가운데*/
-
+    margin: 0 auto;
 }

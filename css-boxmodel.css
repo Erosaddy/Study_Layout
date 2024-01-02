@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* css 선택자: html 명령어를 선택해서 스타일을 정의하는 css 문법 */
+
+    /* 1. 전체선택자 : *
+    2. 태그 선택자 : p 또는 h1 과 같은 명령어 <p>..</p>에서 p가 태그 선택자(css에서는 그렇대)
+    3. 클래스 선택자 : .어떤 이름 (예: .my-photo or .art ...등등)
+    4. 아이디 선택자 : #어떤 이름 (예: #very-important or #exciting ..등등)
+    5. 그룹 선택자 : , (콤마)
+    기타등등 그래서 개발자가 어려워 함 */
+
+.box {
+    border: 1px dashed black;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.box1 {
+
+    width: 200px;
+    height: 200px;
+}
+
+.box2 {
+
+    width: 100px;
+    height: 100px;
+    
+}
+
+.box3 {
+    width: 50px;
+    height: 50px;
+
+}
+
+.bg_gold {
+    color: gold;
+}
+
+.bg_orange {
+    color: orange;
+}
+
+.bg_oragered {
+    color: orangered;
+}
