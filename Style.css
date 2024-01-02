@@ -60,17 +60,23 @@ gold = 속성값
 
 .display-block {
     display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .display-inlineblock {
     display: block;
+    margin: 0;
+    padding: 0;
 }
 
 /* 아래는 태그선택자 */
 
 div {
     background-color: coral;
-    margin: 1rem;
+    
+    margin: 0;
+    padding: 0;
 }
 
 span {
