@@ -1,0 +1,53 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+/*위 내용은 안 써도 되지만 써주는 게 국룰
+
+css 선택자: html 명령어를 선택해서 스타일을 정의하는 css 문법
+
+    1. 전체선택자 : *
+    2. 태그 선택자 : p 또는 h1 과 같은 명령어 <p>..</p>에서 p가 태그 선택자(css에서는 그렇대)
+    3. 클래스 선택자 : .어떤 이름 (예: .my-photo or .art ...등등)
+    4. 아이디 선택자 : #어떤 이름 (예: #very-important or #exciting ..등등)
+    5. 그룹 선택자 : , (콤마)
+    기타등등 그래서 개발자가 어려워 함
+
+*/
+
+/*
+아래는 클래스 선택자
+color = 속성
+gold = 속성값
+*/
+
+.title {
+    color: mediumaquamarine; /* 글자색상 */
+    background-color: rgb(155, 35, 109);
+    display: block;
+    height: 200px;
+}
+
+.p_type1 {
+    background-color: silver; 
+    display: inline;/* 중괄호가 닫히기 전까지 다음 내용이 없기에 ;를 쓰지 않아도 무방하다 */
+    height: 200px;
+}
+
+.p_type2 {
+    background-color: rgb(56, 93, 161);
+    display: inline-block;
+    height: 200px;
+}
+
+.word_type1 {
+    color: red; background-color: black;
+}
+
+/* 아래는 태그선택자 */
+
+div {
+    background-color: coral;
+    margin: 1rem;
+}
