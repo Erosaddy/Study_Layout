@@ -45,9 +45,35 @@ gold = 속성값
     color: red; background-color: black;
 }
 
+.bg-gold {
+    background-color: gold;
+}
+
+.bg-lime {
+    background-color: lime;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inlineblock {
+    display: block;
+}
+
 /* 아래는 태그선택자 */
 
 div {
+    background-color: coral;
+    margin: 1rem;
+}
+
+span {
     background-color: coral;
     margin: 1rem;
 }
